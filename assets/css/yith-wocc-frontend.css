@@ -1,0 +1,24 @@
+.yith-wocc-wrapper:after,
+.yith-wocc-wrapper:before {
+    content: '';
+    display: table;
+}
+.yith-wocc-wrapper:after {
+    clear: both;
+}
+.yith-wocc-wrapper {
+    margin: 15px 0;
+}
+button.yith-wocc-button:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    background: url('../images/button-icon.png' ) center center no-repeat;
+}
+button.yith-wocc-button .button-label {
+    display: inline-block;
+    vertical-align: middle;
+}
